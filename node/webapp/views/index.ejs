@@ -1,0 +1,23 @@
+<% include header %>
+
+    <body>
+        <h1>Express</h1>
+        <p>Welcome to
+            <%= title %>
+        </p>
+        <h3>ejs</h3>
+        <% for (var i in users) { %>
+            <ul>
+                <li>
+                    <%= i %>
+                </li>
+                <li>
+                    <%= users[i].name %>
+                </li>
+                <li>
+                    <%= users[i].email %>
+                </li>
+            </ul>
+        <% } %>
+    </body>
+    <% include footer %>

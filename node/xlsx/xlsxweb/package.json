@@ -1,0 +1,17 @@
+{
+  "name": "xlsxweb",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "xlsx": "^0.20.2"
+  }
+}

@@ -1,0 +1,5 @@
+C:\Users\kenu\git\okdevtv-examples\python>python 01wordcount.py
+Traceback (most recent call last):
+  File "01wordcount.py", line 3, in <module>
+    for word in file.read().split():
+UnicodeDecodeError: 'cp949' codec can't decode byte 0xe2 in position 1297: illegal multibyte sequence
