@@ -1,0 +1,14 @@
+{
+  "name": "mariadb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dbtest01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.12.0"
+  }
+}
