@@ -1,10 +1,6 @@
-var mysql = require('mysql');
-var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'devuser',
-    password: 'okpassokpass',
-    database: 'okdevdb'
-});
+var db = require('./db');
+var connection = db.connection();
+
 connection.connect();
 
 connection.query('SELECT * FROM user', function (err, rows, fields) {
