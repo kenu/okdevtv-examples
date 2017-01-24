@@ -15,7 +15,7 @@ router.get('/', function (req, res, next) {
             title: 'MariaDB',
             users: rows
         };
-        res.render('index', jsonData);
+        res.json(jsonData);
 
     });
 
@@ -24,4 +24,3 @@ router.get('/', function (req, res, next) {
 });
 
 module.exports = router;
-
