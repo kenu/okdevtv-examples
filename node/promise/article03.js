@@ -9,16 +9,14 @@ function showResult(t) {
 function testProm(name) {
     var connection = db.connection();
     connection.connect();
-    var result;
+    var result = {};
     var p1 = new Promise(function (resolve, rejected) {
-        connection.query('SELECT * FROM user where name = ?', [name], function (err, rows, fields) {
+        connection.query('SELECT * FROM user where name like ?', [name], function (err, rows, fields) {
             if (err) throw err;
-            var seq = rows[0].seq;
-            result = {
-                data: rows
-            };
-            resolve(seq);
-            console.log(seq);
+            rows.forEach(function (e) {
+                console.log('===', e);
+                resolve(e.seq);
+            });
         });
     });
     p1.then(function (seq) {
@@ -34,4 +32,4 @@ function testProm(name) {
             });
     });
 }
-testProm('kenu1');
+testProm('kenu%');
