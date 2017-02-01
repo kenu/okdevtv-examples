@@ -35,6 +35,7 @@ sess.run(init)
 
 for step in xrange(8):
     sess.run(train)
+    print(step, sess.run(loss), sess.run(W), sess.run(b))
 
 plt.plot(x_data, y_data, 'ro')
 plt.plot(x_data, sess.run(W) * x_data + sess.run(b))
