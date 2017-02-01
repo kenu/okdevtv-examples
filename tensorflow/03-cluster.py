@@ -56,5 +56,5 @@ for i in xrange(len(assignment_values)):
 
 df = pd.DataFrame(data)
 sns.lmplot("x", "y", data=df, fit_reg=False, size=6, hue="cluster", legend=False)
-# plt.show()
+plt.show()
 
