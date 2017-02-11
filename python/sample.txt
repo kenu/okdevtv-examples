@@ -1,0 +1,2 @@
+The Dangers of If Statements in Domain Logic by Jan Stenberg on Feb 10, 2017. Estimated reading time: 3 minutes | Discuss ShareShare |  Read laterMy Reading List
+The if statement found in most programming languages has two major roles; validating input to protect the domain from erroneous data, and for dealing with business logic inside the domain. Unfortunately, we spend too little time managing the risks of using if statements in logic from a business or domain perspective, Udi Dahan claimed in his presentation at the recent DDD Europe Conference in Amsterdam.
