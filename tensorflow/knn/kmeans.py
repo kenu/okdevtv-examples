@@ -1,4 +1,5 @@
 # source from "Getting Started with TensorFlow", p119
+from __future__ import print_function
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -8,7 +9,7 @@ import tensorflow as tf
 def display_partition(x_values, y_values, assignment_values):
     labels = []
     colors = ["red", "blue", "green", "yellow"]
-    for i in xrange(len(assignment_values)):
+    for i in range(len(assignment_values)):
         labels.append(colors[(assignment_values[i])])
     color = labels
     df = pd.DataFrame(dict(x = x_values, y = y_values, color = labels))
@@ -25,7 +26,7 @@ y_values = []
 vector_values = []
 
 # generate random data
-for i in xrange(num_vectors):
+for i in range(num_vectors):
     if np.random.random() > 0.5:
         x_values.append(np.random.normal(0.4, 0.7))
         y_values.append(np.random.normal(0.2, 0.8))
@@ -60,7 +61,7 @@ init_op = tf.global_variables_initializer()
 
 sess = tf.Session()
 sess.run(init_op)
-for step in xrange(num_steps):
+for step in range(num_steps):
     _, centroid_values, assignment_values = sess.run([update_centroids, centroids, assignments])
 display_partition(x_values, y_values, assignment_values)
 plt.plot(x_values, y_values, 'o', label='Input Data')

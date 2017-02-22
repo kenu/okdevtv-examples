@@ -1,3 +1,4 @@
+from __future__ import print_function
 x = 1
 y = x + 9
 print(y)

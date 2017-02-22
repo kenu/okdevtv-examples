@@ -1,9 +1,10 @@
+from __future__ import print_function
 import numpy as np
 
 num_points = 1000
 vectors_set = []
 
-for i in xrange(num_points):
+for i in range(num_points):
     x1 = np.random.normal(0.0, 0.55)
     y1 = x1 * 0.1 + 0.3 + np.random.normal(0.0, 0.03)
     vectors_set.append([x1, y1])
@@ -33,7 +34,7 @@ init = tf.global_variables_initializer()
 sess = tf.Session()
 sess.run(init)
 
-for step in xrange(8):
+for step in range(8):
     sess.run(train)
     print(step, sess.run(loss), sess.run(W), sess.run(b))
 
