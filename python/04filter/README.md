@@ -8,7 +8,4 @@ https://maps.googleapis.com/maps/api/js/GeocodeService.Search?
 &token=50625
 
 
-AIzaSyAQZD57lEciNqHdmW820QcA2mz4wrlkkyU
-
-
-curl "https://maps.googleapis.com/maps/api/geocode/json?address=경기도 연천군 군남면 삼거3길  8-17&key=AIzaSyAQZD57lEciNqHdmW820QcA2mz4wrlkkyU"
+curl "https://maps.googleapis.com/maps/api/geocode/json?address=경기도 연천군 군남면 삼거3길  8-17&key=APIKEY"
