@@ -2,3 +2,6 @@ node_modules
 Thumbs.db
 .DS_Store
 venv
+*.zip
+*.gz
+tsne.png
