@@ -5,3 +5,5 @@ venv
 *.zip
 *.gz
 tsne.png
+events.out*
+*.ckpt*
