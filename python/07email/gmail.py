@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# https://myaccount.google.com/security#connectedapps
+
 import smtplib
 from email.mime.text import MIMEText
 
