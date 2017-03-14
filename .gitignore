@@ -7,3 +7,4 @@ venv
 tsne.png
 events.out*
 *.ckpt*
+.ipynb_checkpoints
