@@ -28,7 +28,7 @@ test('array set', () => {
     let keys4 = keys3.filter(function (item, pos) {
         return keys3.indexOf(item) == pos
     });
-    expect(keys4).toEqual([1,2,3]);    
+    expect(keys4).toEqual([1, 2, 3]);
 });
 
 test('array set2', () => {
@@ -38,5 +38,5 @@ test('array set2', () => {
     let keys4 = keys3.filter(function (item, pos) {
         return keys3.indexOf(item) == pos
     });
-    expect(keys4).toEqual([1,3,2]);    
+    expect(keys4).toEqual([1, 3, 2]);
 });

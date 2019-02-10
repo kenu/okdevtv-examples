@@ -33,6 +33,6 @@ const arrayUtils = {
         return ar3;
     }
 
-}
+};
 
 module.exports = arrayUtils;
