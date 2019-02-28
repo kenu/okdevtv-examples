@@ -8,3 +8,4 @@ tsne.png
 events.out*
 *.ckpt*
 .ipynb_checkpoints
+package-lock.json
