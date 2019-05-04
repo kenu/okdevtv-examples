@@ -2,16 +2,16 @@ var mysql = require('mysql');
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'devuser',
-    password: 'okpassokpass',
-    database: 'okdevdb'
+    password: 'devpass',
+    database: 'devdb'
 });
 
 connection.connect();
 
-connection.query('SELECT now() AS time', function (err, rows, fields) {
+connection.query('SELECT * from user', function (err, rows, fields) {
     if (err) throw err;
 
-    console.log('The time is: ', rows[0].time);
+    console.log('result is: ', rows[0]);
 });
 
 connection.end();
