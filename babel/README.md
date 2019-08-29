@@ -2,7 +2,7 @@ https://okdevtv.com/mib/js/babel
 
 * compile
 
-```
+```bash
 node_modules/.bin/babel src --out-dir lib
 ```
 
