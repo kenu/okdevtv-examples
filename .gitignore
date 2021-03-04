@@ -10,3 +10,4 @@ events.out*
 .ipynb_checkpoints
 package-lock.json
 yarn.lock
+.history
