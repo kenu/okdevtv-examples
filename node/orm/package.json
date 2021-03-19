@@ -1,0 +1,15 @@
+{
+  "name": "orm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "orm-start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sequelize": "^6.5.1",
+    "sqlite3": "^5.0.2"
+  }
+}
