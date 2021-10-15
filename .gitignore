@@ -11,3 +11,5 @@ events.out*
 package-lock.json
 yarn.lock
 .history
+.idea
+*.iml
