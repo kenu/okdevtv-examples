@@ -13,3 +13,6 @@ yarn.lock
 .history
 .idea
 *.iml
+.env
+.env.local
+credentials.json
