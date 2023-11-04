@@ -18,3 +18,11 @@ yarn.lock
 .env.local
 credentials.json
 token.json
+.classpath
+.project
+.settings
+target
+bin
+build
+dist
+.springBeans
