@@ -1,17 +1,15 @@
 # Spring Data REST - CRUD Application Tutorial and Examples
 
 ## Referenced Tutorial
-
 - [Spring Data REST CRUD Example](https://www.amitph.com/spring-data-rest-example/)
-## How to Run
+- https://github.com/amitrp/spring-examples
 
 ### Git Checkout
 ```
-~ git clone https://github.com/amitrp/spring-examples.git
+git clone https://github.com/kenu/okdevtv-examples.git
+cd okdevtv-examples/spring/crud-example
 ```
 
-### Move to the module & Launch application
-```
-~ cd spring-examples/spring-data-rest/crud-example
-~ mvn spring-boot:run
-```  
+## How to Run
+- `mvn spring-boot:run`
+- http://localhost:8080/students
