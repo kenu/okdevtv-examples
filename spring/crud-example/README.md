@@ -11,5 +11,8 @@ cd okdevtv-examples/spring/crud-example
 ```
 
 ## How to Run
+- **Edit 2 files to match your database**
+  - `pom.xml`
+  - `src/main/resources/application.properties`
 - `mvn spring-boot:run`
-- http://localhost:8080/students
+- `curl localhost:8080/students`
