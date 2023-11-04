@@ -16,3 +16,6 @@ cd okdevtv-examples/spring/crud-example
   - `src/main/resources/application.properties`
 - `mvn spring-boot:run`
 - `curl localhost:8080/students`
+- `curl -XPOST localhost:8080/students -H "content-type: application/json" -d '{"name": "hello"}'`
+- `curl localhost:8080/students/1`
+- `curl -XDELETE localhost:8080/students/1`
