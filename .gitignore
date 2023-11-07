@@ -26,3 +26,4 @@ bin
 build
 dist
 .springBeans
+.vscode
