@@ -27,3 +27,4 @@ build
 dist
 .springBeans
 .vscode
+__pycache__
